@@ -5,6 +5,7 @@ const message=document.querySelector('.message');
 const tasksContainer =document.querySelector('.tasks');
 let taskarray= [];
 
+
 editbtn.addEventListener('click', editValue)
 Addbtn.addEventListener('click', addtask)
 let currentEditIndex= '';
